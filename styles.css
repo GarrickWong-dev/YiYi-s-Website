@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    background: radial-gradient(circle, #ffd8f0, #ff9fc7e0);
+    color: rgb(0, 0, 0);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    margin: 10px;
+}
+
+.logo{
+    width: 350px;
+    background: white;
+    border-radius: 35%;
+}
+
+h{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom:10px;
+}
+
+hr{ /*Lines between sections*/
+    border:none;
+    background-color: white;
+    width: 320px;
+    height: 3px;
+}
+
+/*Cake grid stuff!*/
+
+
+.CakeGrid{
+    width: 350px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color:#ffffff;
+    border-radius: 3%;
+    height: auto;
+}
+
+
+.pics{
+    position: relative;
+    text-align: center;
+}
+
+.pics img{
+    width: 160px;
+    border-radius: 5%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  border: none;
+  font-size: 15px;     /* smaller font size */
+  padding: 4px 4px;    /* smaller padding */
+  cursor: pointer;
+  border-radius: 5%;
+  z-index: 10;       
+}
+
+.arrow:hover{
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+.arrow.left {
+    left: 8px;
+}
+
+.arrow.right {
+    right: 8px;
+}
+
