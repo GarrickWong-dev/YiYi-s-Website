@@ -19,6 +19,7 @@ ul li a{
     text-decoration: none;
 }
 
+
 header .logo a{
     background-image: url("Assets/logo.PNG");
     background-size: contain;
@@ -52,75 +53,42 @@ hr{ /*Lines between sections*/
     height: 2px
 }
 
-.menu{
-    margin-bottom: 20px;
-}
-
-h{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    font-size: 2rem;
-    margin-bottom:10px;
-}
-
-hr{ /*Lines between sections*/
-    border:none;
-    background-color: white;
-    width: 320px;
-    height: 3px;
-}
-
-/*Cake grid stuff!*/
-
-
-.CakeGrid{
+.block{
+    height:350px;
     width: 350px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    background-color:#ffffff;
-    border-radius: 3%;
-    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    color: white;
 }
 
+#menu{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Assets/all.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
 
-.pics{
-    position: relative;
-    text-align: center;
 }
 
-.pics img{
-    width: 160px;
-    border-radius: 5%;
-    object-fit: cover;
+#menu a, #price a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
     cursor: pointer;
 }
 
-.arrow {
-  position: absolute;
-  top: 50%;
-
-  background-color: rgba(0,0,0,0.4);
-  color: white;
-  border: none;
-  font-size: 15px;     /* smaller font size */
-  padding: 4px 4px;    /* smaller padding */
-  cursor: pointer;
-  border-radius: 5%;
-  z-index: 10;       
-}
-
-.arrow:hover{
-    background-color: rgba(0,0,0,0.6);
-}
-
-
-.arrow.left {
-    left: 8px;
-}
-
-.arrow.right {
-    right: 8px;
+#price {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Assets/MangoB.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 .contact{

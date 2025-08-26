@@ -4,56 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YiYi's Mochi Cakes</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="front.css">
 </head>
 <body>
     <header>
-        <img src="Yiyis mochi/IMG_4093.PNG" alt="YiYi's Mochi Cakes Logo" class="logo">
-        <br>
-        <!-- Naviagion List
         <ul>
-            <li href="#menu">menu</li>
-            <li href="#order">order</li>
+            <li class="logo"><a href="index.html">YiYiLogo</a></li>
+            <li class="order"><a href="order.html">ORDER NOW</a></li>
         </ul>
-        -->
     </header>
     <hr>
-    <section id="menu">
-        <h>Flavors!</h>
-        <div class="CakeGrid">
-            <div class="pics" data-index="Mango">
-                <button class="arrow left">&#8592;</button>
-                 <figcaption>Mango</figcaption>
-                <img src="Yiyis mochi\MangoC.jpg" alt="Mango Cake" style="transform: scaleX(-1);">
-                <button class="arrow right">&#8594;</button>
-            </div>
-            <div class="pics" data-index="Coconut">
-                <figcaption>Coconut</figcaption>
-                <button class="arrow left">&#8592;</button>
-                <img src="Yiyis mochi\CocoC.jpg" alt="Coconut Cake">
-                <button class="arrow right">&#8594;</button>
-            </div>
-            <div class="pics" data-index="Matcha">
-                <figcaption>Matcha</figcaption>
-                <button class="arrow left">&#8592;</button>
-                <img src="Yiyis mochi\MatchaC.jpg" alt="Matcha Cake" style="transform: scaleX(-1);">
-                <button class="arrow right">&#8594;</button>
-            </div>
-            <div class="pics" data-index="Chocolate">
-                <figcaption>Chocolate</figcaption>
-                <button class="arrow left">&#8592;</button>
-                <img src="Yiyis mochi\ChocoC.jpg" alt="Chocolate Cake">
-                <button class="arrow right">&#8594;</button>
-            </div>
+    <ul class = "links">
+        <li class="block" id="menu"><a href="menu.html">MENU</a></li>
+        <li class="block" id="price"><a href="prices.html">PRICING</a></li>
+    </ul>
+    <hr>
+
+    <section class="contact">
+        <h2>Contact Us!</h2>
+        <div class="email">
+            <p>Email: <a href="mailto:yiyismochicakes@gmail.com">yiyismochicakes@gmail.com</a></p>
+        </div>
+        <div class="insta">
+            <a href="https://www.instagram.com/yiyismochicakes/" target="_blank" rel="noopener noreferrer"><img src="Assets/Instagram-Icon.png" alt="Instagram" width="30" height="30"></a>
+            <p>Instagram: @yiyismochicales </p>
         </div>
     </section>
-    <br>
-    <hr>
-    <br>
-    <section id="prices">
-        <h>Prices</h>
-    </section>
 
-    <!--<section id="order">Order</section>-->
 </body>
 </html>
