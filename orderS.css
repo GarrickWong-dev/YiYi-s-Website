@@ -29,9 +29,11 @@ header .logo a{
     width:350px;
     height: 220px;
     position: relative;
-    text-indent: -99999999px;
     background-color: white;
     border-radius: 35%;
+
+    color: transparent;
+    user-select: none;
     
 }
 
