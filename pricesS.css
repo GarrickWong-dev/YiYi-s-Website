@@ -79,22 +79,29 @@ hr{ /*Lines between sections*/
     position: relative;
     text-align: center;
     margin: 15px;
+    width: 350px;
+    overflow:hidden;
+}
+
+.track{
+    display:flex;
+    transition: transform 0.5s ease-in-out;
+    width: fit-content;
 }
 
 .pics img{
     width: 350px;
     border-radius: 5%;
-    object-fit: cover;
-    cursor: pointer;
+    flex-shrink:0;
 }
 
 .arrow {
   position: absolute;
   top: 55%;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.1);
   color: white;
   border: none;
-  font-size: 15px;     
+  font-size: 30px;     
   padding: 4px 4px;    
   cursor: pointer;
   border-radius: 5%;
